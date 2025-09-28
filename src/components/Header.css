@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+    position: fixed;
+    z-index:2;
+   
+}
+.header-bg{
+    background-color: rgba(179, 0, 0, 0.649);
+    transition: 0.5s;
+}

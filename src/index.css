@@ -1,0 +1,9 @@
+body{
+  margin: 0;
+  padding:0;
+  background-color: rgba(0, 0, 0, 0.907);
+  color: rgb(0, 255, 225);
+}
+a{
+  text-decoration: none;
+}

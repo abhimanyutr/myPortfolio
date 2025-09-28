@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+   
+}
+body{
+     
+     background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_1280.jpg");
+   background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     background-attachment: fixed;
+   
+}
