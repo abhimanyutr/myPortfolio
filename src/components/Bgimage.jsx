@@ -15,6 +15,7 @@ function Bgimage({ heading, text }) {
         backgroundRepeat: "no-repeat",
         width: "100%",
         height: { xs: "60vh", md: "50vh" }, // responsive height
+        paddingTop:{xs:"10px",md:"20px"},
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -27,6 +28,8 @@ function Bgimage({ heading, text }) {
           textAlign: "center",
           color: "#fff",
           px: { xs: 2, md: 0 }, // horizontal padding for small screens
+          height: { xs: "30vh", md: "30vh" }, // responsive height
+          paddingTop:{xs:"90px",md:"90px"},
         }}
       >
         <Typography
