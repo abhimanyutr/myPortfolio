@@ -17,6 +17,8 @@ import LaunchIcon from "@mui/icons-material/Launch";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 
+import TravelWeb from '../assets/TravelWeb.png'; 
+
 function Projects() {
 
 
@@ -46,8 +48,8 @@ function Projects() {
 ><Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/TravelWeb.png"
-        title="green iguana"
+        image={TravelWeb}
+        title="Travel"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
