@@ -155,7 +155,7 @@ function Header() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="https://static.vecteezy.com/system/resources/thumbnails/007/814/266/small_2x/programmer-and-engineering-development-coding-web-development-website-design-developer-flat-vector.jpg" />
+                <Avatar alt="Remy Sharp" src="src/assets/AbhimanyuRajan.jpg" />
               </IconButton>
             </Tooltip>
             <Menu

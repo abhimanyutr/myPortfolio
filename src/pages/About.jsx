@@ -2,10 +2,12 @@ import React from 'react'
 import Bgimage from '../components/Bgimage'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
+import { Typography, Card, CardContent, Chip } from '@mui/material'
+import Grid from '@mui/material/Grid'
 function About() {
   return (
 <div style={{backgroundColor:"black"}}>
-      <Bgimage heading='ABOUT' text='Im a Fullstack Developer'/>
+      <Bgimage heading='ABOUT ME' text=""/>
       <Box>
         <Stack
   direction={{ xs: "column", md: "row" }}
@@ -27,13 +29,44 @@ function About() {
     paddingX:"45px",
   }}
 >
-  <h1>Who Am I?</h1>
   <h2>
-    I'm a passionate <strong>React Frontend Developer</strong> who specializes in building
+    I'm a passionate <strong>FullStack Developer</strong> who specializes in building
     clean, responsive, and user-friendly web applications. I focus on writing
     efficient code, delivering smooth UI experiences, and creating secure digital
     solutions that help businesses grow.
   </h2>
+  <Typography sx={{ mt:"10px", fontWeight: 'bold' }} variant='h5'>
+  EDUCATION
+</Typography>
+<Typography variant="body2" sx={{ opacity: 0.8 }}>
+  B.Tech in Computer Science – 2025
+</Typography>
+
+<Typography sx={{ mt:"10px", fontWeight: 'bold' }} variant='h5'>
+  Career Goals
+</Typography>
+<Typography variant="body2" sx={{ opacity: 0.8 }}>
+  Join a product team where I can own features end‑to‑end, mentor peers, and ship impactful user experiences.
+</Typography>
+
+<Grid item xs={12} md={4}>
+<Card sx={{ borderRadius: 4,backgroundColor:"black",color:"white"}}>
+<CardContent>
+<Typography sx={{ mt:"10px", fontWeight: 'bold',color:"#00cfebff" }} variant='h5'>
+  Skills
+</Typography>
+<Stack direction="row"  gap={1} flexWrap="wrap">
+{["HTML", "Tailwind", "JavaScript","React","Angular" ,"Express","NodeJs","MongoDB", "Python", ].map(
+(s) => (
+<Chip sx={{backgroundColor:"#00e1ffc9",fontWeight: 'bold'}} key={s} label={s} />
+)
+)}
+</Stack>
+</CardContent>
+</Card>
+</Grid>
+
+  
 </Stack>
 <Stack
   direction={{ xs: "column", md: "row" }}   // ✅ Correct placement
