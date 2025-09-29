@@ -53,7 +53,7 @@ twitter: "https://twitter.com/your-username",
   variant="outlined"
   startIcon={<DownloadIcon />}
   component="a"
-  href="/Abhimanyu-Resume.pdf" // Path from public folder
+  href="/Abhimanyu-ResumeN.pdf" // Path from public folder
   download
   sx={{
     color: "#00c7e1",

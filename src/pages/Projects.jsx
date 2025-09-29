@@ -18,7 +18,14 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 
 import TravelWeb from '../assets/TravelWeb.png'; 
-
+import Bank from '../assets/Bank.png'; 
+import Calculator from '../assets/calculator.png'; 
+import CarDetails from '../assets/carDetails.png'; 
+import EventManagement from '../assets/EventManage.png'; 
+import Food from '../assets/food.png'; 
+import MovieSearch from '../assets/MovieSearch.png'; 
+import ToDoList from '../assets/ToDoList.png'; 
+import Craft from '../assets/craft.png'; 
 function Projects() {
 
 
@@ -91,7 +98,7 @@ function Projects() {
   <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image='src/assets/MovieSearch.png'
+        image={MovieSearch}
         title="MovieSearch"
       />
       <CardContent>
@@ -134,7 +141,7 @@ function Projects() {
   <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/ToDoList.png"
+        image={ToDoList}
         title="ToDoList"
       />
       <CardContent>
@@ -191,7 +198,7 @@ function Projects() {
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/carDetails.png"
+        image={CarDetails}
         title="green iguana"
       />
       <CardContent>
@@ -233,7 +240,7 @@ function Projects() {
     </Card><Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/EventManage.png"
+        image={EventManagement}
         title="Event Management"
       />
       <CardContent>
@@ -275,7 +282,7 @@ function Projects() {
     </Card><Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/calculator.png"
+        image={Calculator}
         title="calculator"
       />
       <CardContent>
@@ -326,7 +333,7 @@ function Projects() {
 ><Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/bank.png"
+        image={Bank}
         title="bank"
       />
       <CardContent>
@@ -369,7 +376,7 @@ function Projects() {
   <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image='src/assets/food.png'
+        image={Food }
         title="Food Kart"
       />
       <CardContent>
@@ -412,7 +419,7 @@ function Projects() {
   <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 180 }}
-        image="src/assets/craft.png"
+        image={Craft}
         title="Craft"
       />
       <CardContent>

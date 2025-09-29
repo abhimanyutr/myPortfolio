@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
-
+import AvatarImg from '../assets/AbhimanyuRajan.jpg'; // correct relative pat
 import './Header.css'
 const pages = ['Home', 'Projects', 'Contact', 'About'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -155,7 +155,7 @@ function Header() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="src/assets/AbhimanyuRajan.jpg" />
+                <Avatar alt="Abhimanyu Rajan" src={AvatarImg} />
               </IconButton>
             </Tooltip>
             <Menu

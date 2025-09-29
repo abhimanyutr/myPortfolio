@@ -26,7 +26,7 @@ function Bgimage({ heading, text }) {
         spacing={2}
         sx={{
           textAlign: "center",
-          color: "#fff",
+          color: "#00c7e1",
           px: { xs: 2, md: 0 }, // horizontal padding for small screens
           height: { xs: "30vh", md: "30vh" }, // responsive height
           paddingTop:{xs:"90px",md:"90px"},

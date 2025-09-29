@@ -30,7 +30,7 @@ function Footer() {
 
             <Stack direction="row" spacing={2} alignItems="center">
               <FaPhone size={20} /> 
-              <Link href="tel:895547329" sx={{ color: "#fff", textDecoration: "none" }}>895 547 329</Link>
+              <Link href="tel:895547329" sx={{ color: "#fff", textDecoration: "none" }}>895 547 3298</Link>
             </Stack>
 
             <Stack direction="row" spacing={2} alignItems="center">
