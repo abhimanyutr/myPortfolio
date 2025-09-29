@@ -35,7 +35,7 @@ function Projects() {
   <div style={{backgroundColor:"#212121aa"}}> <Bgimage heading='PROJECTS' text='Some of my most recent works'/>
   
   <Stack
-   direction={{ xs: "column", md: "row" }}
+  direction="column"
   spacing={8}
   sx={{
     justifyContent: "center",
