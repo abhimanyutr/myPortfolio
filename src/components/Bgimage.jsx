@@ -14,6 +14,7 @@ function Bgimage(props) {
     backgroundRepeat: "no-repeat",
     height: "50vh",
     width: "100%",
+    
   }}
 >
     <Stack
