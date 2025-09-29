@@ -28,8 +28,8 @@ function Bgimage({ heading, text }) {
           textAlign: "center",
           color: "#00c7e1",
           px: { xs: 2, md: 0 }, // horizontal padding for small screens
-          height: { xs: "30vh", md: "30vh" }, // responsive height
-          paddingTop:{xs:"90px",md:"90px"},
+          height: { xs: "10vh", md: "30vh" }, // responsive height
+          paddingTop:{xs:"40px",md:"90px"},
         }}
       >
         <Typography
